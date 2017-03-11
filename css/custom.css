@@ -1,0 +1,242 @@
+/*Brand Name*/
+.navbar-brand h3{
+	color:  #ffffff;
+	font: normal 30px 'Cookie', cursive;
+	margin:0;
+}
+.navbar-brand h3 span{
+	color:  #5383d3;
+}
+.overlay p{
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-size: 45px;
+    top: -200px;
+}
+.crop {
+    width: 100%;
+    overflow:hidden;
+    display:block;
+    height: 60%;
+}
+#bgvid {
+    padding-top:0;
+}
+
+/*
+.navbar-default{
+    opacity: 0.2;
+}
+*/
+/*
+.navbar.navbar-fixed-top.navbar-inverse .navbar-inner{
+    background: rgba(255, 255, 255, 0.3);
+}
+*/
+
+.navbar{
+    border: none;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.nav > li > a:hover{
+    background-color:#fff;
+    color: black;
+}
+.nav > li > a:focus{
+    background-color: black;
+    color: white;
+}
+.nav > li > a:focus:hover{
+    background-color: white;
+}
+.navbar li { color: #000 } 
+
+.slider-img {
+    background: url('../images/inhotel.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/*carousel*/
+
+
+html,
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin-bottom: 0;
+    position: fixed;
+	bottom: 0;
+}
+@media (max-height:800px){
+	footer { position: static; }
+}
+.carousel-caption {
+    height: 30%;
+    top: 10%;
+}
+.carousel-caption h2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.carousel-caption .container-fluid a.btn-default{
+
+    color: lightcyan;
+    border:5px solid White;
+    border-radius: 20px;
+    background-color:darkslateblue;
+}
+.container-fluid h2 {
+    text-align:center;
+    color: White;
+    margin-top: 80px;
+}
+.container-fluid .row {
+    color: white;
+    text-align:center;
+    
+}
+
+.navbar .nav > li > a  {
+  color: #FFF;
+}
+
+.navbar .nav > li > a:hover  {
+  color: black;
+}
+
+.navbar-brand {
+    color:crimson;
+    font-weight: bold;
+}
+.navbar-brand hover {
+    color: aquamarine;
+    
+}
+.navbar-toggle .icon-bar{
+    background-color:crimson
+}
+
+.dropdown-toggle.focus,.open>.dropdown-toggle:focus,.open>.dropdown-toggle:hover{
+    color:#333;background-color:black;
+}
+form .container-fluid {
+    margin: 0 auto;
+    width:60%;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 10%;
+    box-shadow:  10px 10px 10px #000;
+
+}
+.container-fluid#form .row {
+    padding-top: 2%;
+}
+input {
+    background-color: black;
+    color: white;
+    border:none;
+    width: 50%;
+    padding-top: 2%;
+    border-bottom: 2px solid #fff;
+    line-height: 30px;
+}
+input:focus {
+    border-bottom: 2px solid #0f0;
+}
+.row .btn.btn-default {
+    width: 50%;
+    background-color: deepskyblue;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/*Gallery*/
+.gal {
+    margin-top: 50px;
+}
+.gal .gal ul {         
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+}
+.gal ul li {     
+    list-style:none;
+    margin-bottom:25px;           
+}
+.gal ul li img {
+  cursor: pointer;
+}
+.modal-body {
+  padding:5px !important;
+}
+.modal-content {
+  border-radius:0;
+}
+.modal-dialog img {
+    text-align:center;
+    margin:0 auto;
+}
+.controls{          
+    width:50px;
+    display:block;
+    font-size:11px;
+    padding-top:8px;
+    font-weight:bold;          
+}
+.next {
+    float:right;
+    text-align:right;
+}
+  /*override modal for demo only*/
+.modal-dialog {
+  max-width:500px;
+  padding-top: 90px;
+}
+@media screen and (min-width: 768px){
+  .modal-dialog {
+      width:500px;
+      padding-top: 90px;
+}          
+      }
+      @media screen and (max-width:1500px){
+          #ads {
+              display:none;
+          }
+      }
+
+
+.content h2 {
+    color: crimson;
+    font-weight: bold;
+    
+}
